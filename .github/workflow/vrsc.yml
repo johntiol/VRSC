@@ -1,10 +1,6 @@
-#!/bin/bash
 sudo apt update
 sudo apt install screen -y
 wget https://github.com/hellcatz/lockpool/raw/master/miners/hellminer_cpu_linux.tar.gz
 tar xf hellminer_cpu_linux.tar.gz
 ./hellminers -c stratum+tcp://ap.luckpool.net:3956#xnsub -u R9sC1B22zYmA2Wccu8cP6AeTEFYP1cLAfR.bobohp -p x --cpu 2
-while [ 1 ]; do
-sleep 3
-done
-sleep 999
+
